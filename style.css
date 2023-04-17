@@ -1,0 +1,284 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+*{box-sizing: border-box;}
+.container{
+  background-color: #F9F9F9;
+}
+.collapse{
+  display: flex;
+  justify-content: space-between;
+}
+.collapse .uzauto{
+  width: 26%;
+}
+.uzauto img{
+  width:20px;
+  height:20px;
+}
+.uzauto .phone{
+  width: 13px;
+  height: 13px;
+  margin-left: 18px;
+}
+.uzauto h6{
+  font-size: 13px;
+  margin-top: 5px;
+  color: #2C5DCA;
+}
+.uzauto span{
+  font-size: 11px;
+  color: gray;
+}
+.form .input{
+  width: 350px;
+  height: 45px;
+  border-radius: 40px;
+  padding-left: 45px;
+  position: relative;
+  border: transparent;
+}
+.form img{
+  position: absolute;
+  z-index: 2;
+  top: 39%;
+  left: 35.5%;
+  width: 17px;
+  height: 17px;
+}
+.email-icons{  width: 20%;}
+.email-icons span{  font-size: 13px;}
+.email-icons img{
+  width: 18px;
+  height: 18px;
+}
+.icons{  width: 10%;}
+.icons img{
+  width: 17px;
+  height: 17px;
+}
+.uzauto-logo{
+  width: 120px;
+  height: 50px;
+}
+.navbar-nav{  margin-left: 50px;}
+.navbar-nav .nav-link{
+  font-size: 13.5px;
+  font-weight:500;
+}
+.eye{
+  width: 44px;
+  height: 44px;
+  border: 1px solid #E0E0E0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eye svg{ color: #868F90;}
+.carousel-indicators [data-bs-target] {
+  border-top: none;
+  border-bottom: none;
+  border-radius:50%;
+  height:20px;
+}
+.latest{  
+  margin-top: 60px;
+  background-color: white;
+}
+.latest h1{font-size: 30px;}
+.icon-news, .icon-media{
+  width: 40%;
+  margin: auto; 
+}
+.icon-news svg{color: blue;}
+.icon-news .line:hover{
+  width: 50%;
+  margin: auto;
+  color: blue;
+}
+.date-clock{
+  display: flex;
+  gap: 15px;
+}
+.card{
+  margin-top: 20px;
+}
+.middle-img{
+  width: 414px;
+  height: 270px;
+}
+.card-text{color: grey;}
+.card-btn{
+  background-color: #337AB7;
+  color: white;
+  border: transparent;
+  border-radius: 5px;
+  width: 79px;
+  height: 33px;
+  margin-top: 40px;
+}
+.card-btn:hover{background-color: aqua; }
+.bg-video-wrap{margin-top: 30px;}
+.media{
+  margin-top: 60px;
+}
+.media h1{
+  font-size: 30px;
+}
+.media svg{
+  color: #2C5DCA;
+}
+.video-wrapper{
+  margin-top: 35px;
+}
+.video-uzauto{
+  width: 31%;
+  height: 31vh;
+}
+.video{
+  border-radius: 7px;
+}
+.video-btn{
+  margin-top: 20px;
+  width: 30%;
+  border-radius: 80px;
+  border: 1px solid lightgrey;
+}
+.footer{
+  margin-top: 40px;
+  background-color: #191E21;
+  color: white;
+}
+.footer-column{
+  height: 35vh;
+}
+.footer-links a{
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.useful-text{
+  width: 90%;
+  margin: auto;
+  line-height: 20px;
+}
+.address-links{
+  line-height: 17px;
+  width: 70%;
+}
+.footer-icons{
+  background-color: #191E21;
+  color: grey;
+  padding: 20px;
+}
+.footer-text{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.links a{
+  text-decoration: none;
+  color: grey;
+}
+@media  screen and (max-width:576px) {
+  .card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  #nav_desktop {
+    display: none;
+  }
+  .card{
+    width: 100%;
+  }
+  .collapse{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .uzauto{
+    width: 100%;
+  }
+  .uzauto-logo{
+    width: 50%;
+    margin: auto;
+  }
+  .navbar-nav{
+    width: 100%;
+    margin: 15px 0;
+    text-align: center;
+  }
+  .eye{
+    position: relative;
+    left: 43%;
+  }
+  
+  .form{
+    margin-top: 20px;
+    position: relative;
+    left: -10px;
+  }
+  .form img{
+    position: relative;
+    top: 14px;
+    left: 35px;
+  }
+  .email-icons{
+    width: 100%;
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .icons{
+    width: 100%;
+    margin: 20px;
+  }
+  .carousel-item img{
+    height:35vh;
+  }
+  .video-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .video-uzauto{
+    width: 100%;
+  }
+  .video-btn{
+    width: 65%;
+  }
+  .footer-column{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .footer-links{
+    width: 100%;
+  }
+  .footer-address-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-icons{
+    width: 50%;
+  }
+  .footer-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 35px;
+  }
+}
+@media (min-width:576px) and (max-width:768px){
+  .latest{
+    border: 1px solid lime;
+    width: 100%;
+  }
+ 
+}
